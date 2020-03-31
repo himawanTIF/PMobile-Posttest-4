@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/lobsterfont"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/selamat"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        style="@style/lobsterfont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/pmobile"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_box" />
+
+    <EditText
+        android:id="@+id/username"
+        style="@style/lobsterfont"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/passwd"
+        style="@style/lobsterfont"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/re_passwd"
+        style="@style/lobsterfont"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:hint="@string/retype_pass"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:textStyle="italic" />
+
+    <CheckBox
+        android:id="@+id/S_K"
+        style="@style/lobsterfont"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:buttonTint="#fff"
+        android:text="@string/S_K"
+        android:textColor="#fff"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/masuk"
+            style="@style/lobsterfont"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext1"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="@string/masuk"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/daftar"
+            style="@style/lobsterfont"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext1"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="@string/daftar"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/lobsterfont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/identitas"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

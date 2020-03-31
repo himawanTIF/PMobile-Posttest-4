@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Posttest4</string>
+    <string name="selamat">SELAMAT DATANG USER!</string>
+    <string name="pmobile">Pemrograman Mobile Teknik Informatika UAD</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="retype_pass">Re-type Password</string>
+    <string name="S_K">Setuju Syarat dan Ketentuan? </string>
+    <string name="masuk">MASUK</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="identitas">Himawan Imtikhan Azmi 1700018032 Kamis,13.30</string>
+</resources>
